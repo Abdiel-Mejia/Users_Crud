@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e9eb;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px outset #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #041975;
+    color: white;
+}
+
+.nada{
+    background: none; border: none;
+}
+.nad{
+    text-decoration: none;
+    color: black;
+}
+.centrar{
+    text-align: center;
+}
+.container {
+    position: relative;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.container h1 {
+    position: absolute;
+    top: 40%; /* Posiciona el texto en el centro vertical */
+    left: 50%; /* Posiciona el texto en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centra el texto exactamente */
+    background-color: rgba(255, 255, 255, 0); /* Fondo semitransparente para el texto */
+    padding: 10px 20px; /* Añade espacio alrededor del texto */
+}
+.adj{
+    width: 100%;
+    height: 150px;
+}
+.bl{
+    color: rgb(255, 238, 230);
+}
