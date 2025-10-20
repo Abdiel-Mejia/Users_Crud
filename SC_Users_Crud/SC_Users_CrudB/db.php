@@ -2,7 +2,7 @@
 // Definición de las variables para la conexión a la base de datos
 $servername = "localhost"; // Nombre del servidor de base de datos
 $username = "root"; // Nombre de usuario de la base de datos
-$password = "abdiel.mejia@thbmexico1234"; // Contraseña del usuario de la base de datos
+$password = ""; // Contraseña del usuario de la base de datos
 $dbname = "manager"; // Nombre de la base de datos
 
 // Creación de una nueva instancia de la clase mysqli para establecer la conexión
@@ -16,3 +16,4 @@ if ($conn->connect_error) {
 
 // Si la conexión es exitosa, el script continúa su ejecución
 ?>
+
