@@ -64,7 +64,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (17,'pruebas','prueba@hotmail.com','1996-07-10','5512345678',2),(18,'Sujeto de prueba','sujeto@outlook.com','2025-10-20','5589784562',2),(16,'Abdiel M','oscar_abdiel01@hotmail.com','2024-06-20','5513045263',1);
+INSERT INTO `users` VALUES (17,'pruebas','prueba@hotmail.com','1996-07-10','5512345678',2),(18,'Sujeto de prueba','sujeto@outlook.com','2025-10-20','5589784562',2),(16,'Abdiel M','oscar_abdiel01@hotmail.com','2024-06-20','5512345678',1);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -78,3 +78,4 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2025-10-20 14:27:35
+
